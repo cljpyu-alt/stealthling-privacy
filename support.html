@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>潜译 (StealthLing) 技术支持</title>
+  <style>
+    :root {
+      --text: #1f2329;
+      --muted: #646a73;
+      --accent: #3370ff;
+      --border: #e5e6eb;
+      --bg: #f7f8fa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .nav {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 24px 0;
+    }
+    .nav a { font-size: 14px; color: var(--muted); }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 24px 72px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 40px 48px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    h1 { font-size: 26px; margin-bottom: 8px; }
+    .sub { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+    h2 { font-size: 18px; margin: 30px 0 10px; }
+    p { font-size: 15px; color: #333840; }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { font-size: 15px; color: #333840; margin: 6px 0; }
+    .contact {
+      margin-top: 32px;
+      padding: 20px;
+      background: #f7f8fa;
+      border-radius: 12px;
+    }
+    .contact p { margin: 4px 0; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 0 24px 40px;
+    }
+    footer a { margin: 0 8px; }
+    @media (max-width: 600px) {
+      .card { padding: 28px 22px 36px; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="nav"><a href="index.html">← 返回首页</a></div>
+
+  <main>
+    <div class="card">
+      <h1>潜译 (StealthLing) 技术支持</h1>
+      <p class="sub">使用中遇到问题？先看看下面的常见问题，也许能帮到你。</p>
+
+      <h2>1. 如何开启屏幕录制权限？</h2>
+      <p>潜译需要读取屏幕内容才能翻译。请前往：「系统设置 → 隐私与安全性 → 屏幕录制」，
+      勾选“潜译 StealthLing”。开启后需重启应用生效。</p>
+
+      <h2>2. 为什么没有出现译文？</h2>
+      <ul>
+        <li>确认已开启「屏幕录制」权限；</li>
+        <li>确认当前应用在「允许使用应用」列表中（默认仅翻译浏览器）；</li>
+        <li>确认已经启动翻译模式（全屏翻译或框选翻译）。</li>
+      </ul>
+
+      <h2>3. 如何切换目标语言？</h2>
+      <p>点击菜单栏图标 →「偏好设置」→「通用」标签，在「目标语言」中切换，
+      支持 30 种语言。</p>
+
+      <h2>4. 如何下载离线翻译语言包？</h2>
+      <p>离线翻译使用 Apple 系统翻译引擎。前往「偏好设置 → 语言包」，
+      下载对应语言包后即可在离线状态下翻译。</p>
+
+      <h2>5. 免费额度用完了怎么办？</h2>
+      <p>免费版每日赠送翻译额度；购买完整版即可一次买断、永久解锁全部功能，
+      无需订阅。可在「偏好设置 → 关于」中购买或恢复购买。</p>
+
+      <h2>6. 已购买但未生效 / 如何恢复购买？</h2>
+      <p>请前往「偏好设置 → 关于」点击「恢复购买」，并使用购买时的同一 Apple ID 登录。
+      购买状态由 Apple 内购系统绑定到你的 Apple ID。</p>
+
+      <div class="contact">
+        <h2 style="margin-top:0;">联系我们</h2>
+        <p>若以上内容未解决你的问题，请通过邮件联系：</p>
+        <p><a href="mailto:cljpyu@gmail.com">cljpyu@gmail.com</a></p>
+        <p>请在邮件中附上 macOS 版本、应用版本以及问题描述或截图，以便我们更快处理。</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>© 2026 潜译 StealthLing · <a href="index.html">首页</a> · <a href="privacy.html">隐私政策</a></div>
+  </footer>
+</body>
+</html>
